@@ -1,7 +1,7 @@
 #Library imports
 import numpy as np
 import streamlit as st
-import cv2
+import cv2 as cv2
 from keras.models import load_model
 
 #Loading the Model
@@ -11,7 +11,7 @@ model = load_model('D:/ML App/Plant Detection App/Plant_Disease/plant_disease.h5
 CLASS_NAMES = ['Corn-Common_rust', 'Potato-Early_blight', 'Tomato-Bacterial_spot']
 
 #Setting Title of App
-st.title("Plant Disease Detection")gi
+st.title("Plant Disease Detection")
 st.markdown("Upload an image of the plant leaf")
 
 #Uploading the dog image
