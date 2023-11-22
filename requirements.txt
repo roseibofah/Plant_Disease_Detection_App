@@ -2,3 +2,4 @@ keras==2.15.0
 numpy>=1.23.5
 opencv_python==4.8.1.78
 streamlit==1.25.0
+
